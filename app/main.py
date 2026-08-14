@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.core.config import settings
 from app.api.complaints import router as complaints_router
+from app.api.notifications import router as notifications_router
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
@@ -24,3 +25,4 @@ if settings.BACKEND_CORS_ORIGINS:
 
 # Register API v1 Routers
 app.include_router(complaints_router, prefix=settings.API_V1_STR)
+app.include_router(notifications_router, prefix=settings.API_V1_STR)

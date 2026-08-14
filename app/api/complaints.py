@@ -2,11 +2,21 @@ import math
 from typing import Optional
 from uuid import UUID
 
-from fastapi import APIRouter, Depends, HTTPException, Query, status
+from fastapi import (
+    APIRouter,
+    Depends,
+    File,
+    Form,
+    HTTPException,
+    Query,
+    UploadFile,
+    status,
+)
 from sqlalchemy.orm import Session
 
 from app.db.session import get_db
 from app.schemas.complaint import (
+    AttachmentTypeLiteral,
     ComplaintCreate,
     ComplaintUpdate,
     ComplaintResponse,
@@ -17,6 +27,7 @@ from app.schemas.complaint import (
     ComplaintAttachmentResponse,
 )
 from app.services.complaint_service import ComplaintService
+from app.services.storage_service import StorageService
 
 router = APIRouter(prefix="/complaints", tags=["Complaints"])
 
@@ -46,8 +57,8 @@ def create_complaint(
 def list_complaints(
     page: int = Query(1, ge=1, description="Page number"),
     limit: int = Query(20, ge=1, le=100, description="Items per page"),
-    status: Optional[str] = Query(None, description="Filter by status: PENDING, IN_PROGRESS, RESOLVED, REJECTED, CLOSED"),
-    priority: Optional[str] = Query(None, description="Filter by priority: LOW, MEDIUM, HIGH, URGENT"),
+    status: Optional[str] = Query(None, description="Filter by status: submitted, in_progress, resolved, closed, rejected"),
+    priority: Optional[str] = Query(None, description="Filter by priority: low, medium, high, critical"),
     transit_mode: Optional[str] = Query(None, description="Filter by transit mode: metro, bus, train"),
     department_id: Optional[UUID] = Query(None, description="Filter by department UUID"),
     category_id: Optional[UUID] = Query(None, description="Filter by category UUID"),
@@ -123,6 +134,27 @@ def get_complaint(
     return complaint
 
 
+@router.get(
+    "/{complaint_id}/timeline",
+    response_model=list[ComplaintRemarkResponse],
+    summary="Get complaint timeline audit history",
+)
+def get_complaint_timeline(
+    complaint_id: UUID,
+    db: Session = Depends(get_db),
+):
+    """
+    Retrieves the chronological status change and remarks audit history for a complaint.
+    """
+    timeline = ComplaintService.get_timeline(db=db, complaint_id=complaint_id)
+    if timeline is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Complaint with ID '{complaint_id}' not found.",
+        )
+    return timeline
+
+
 @router.patch(
     "/{complaint_id}",
     response_model=ComplaintResponse,
@@ -135,7 +167,7 @@ def update_complaint(
 ):
     """
     Updates complaint status, priority, or adds resolution remarks.
-    Automatically records timeline history and alerts the citizen.
+    Automatically records timeline history.
     """
     updated = ComplaintService.update_complaint(db=db, complaint_id=complaint_id, complaint_in=complaint_in)
     if not updated:
@@ -170,6 +202,52 @@ def add_remark(
 
 
 @router.post(
+    "/{complaint_id}/upload-attachment",
+    response_model=ComplaintAttachmentResponse,
+    status_code=status.HTTP_201_CREATED,
+    summary="Upload file (Audio -> 'voice-files', Images/Docs -> 'attachments')",
+)
+async def upload_attachment(
+    complaint_id: UUID,
+    file: UploadFile = File(..., description="Audio voice note, photo, or document"),
+    attachment_type: Optional[AttachmentTypeLiteral] = Form(None, description="Optional override: audio, image, video, document"),
+    db: Session = Depends(get_db),
+):
+    """
+    Uploads a file directly to Supabase Storage:
+    - Audio voice notes (.mp3, .wav, .m4a, .ogg) -> stored in 'voice-files' bucket
+    - Images (.jpg, .png) and Documents (.pdf, text) -> stored in 'attachments' bucket
+    - Links the resulting public URL to the complaint.
+    """
+    complaint = ComplaintService.get_complaint_by_id(db=db, complaint_id=complaint_id)
+    if not complaint:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Complaint with ID '{complaint_id}' not found.",
+        )
+
+    file_bytes = await file.read()
+    file_size = len(file_bytes)
+
+    public_url, detected_type, _ = StorageService.upload_file(
+        file_bytes=file_bytes,
+        file_name=file.filename or "attachment",
+        mime_type=file.content_type,
+        complaint_id=complaint_id,
+        forced_attachment_type=attachment_type,
+    )
+
+    attachment_in = ComplaintAttachmentCreate(
+        attachment_type=detected_type,
+        file_name=file.filename or "attachment",
+        file_url=public_url,
+        mime_type=file.content_type,
+        file_size=file_size,
+    )
+    return ComplaintService.add_attachment(db=db, complaint_id=complaint_id, attachment_in=attachment_in)
+
+
+@router.post(
     "/{complaint_id}/attachments",
     response_model=ComplaintAttachmentResponse,
     status_code=status.HTTP_201_CREATED,
@@ -181,7 +259,7 @@ def add_attachment(
     db: Session = Depends(get_db),
 ):
     """
-    Links an uploaded attachment URL from Supabase Storage to the complaint.
+    Links an existing attachment URL to the complaint.
     """
     attachment = ComplaintService.add_attachment(db=db, complaint_id=complaint_id, attachment_in=attachment_in)
     if not attachment:

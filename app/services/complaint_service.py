@@ -144,6 +144,21 @@ class ComplaintService:
         )
 
     @staticmethod
+    def get_timeline(db: Session, complaint_id: UUID) -> Optional[List[ComplaintRemark]]:
+        """
+        Fetches the chronological status & remarks history (Timeline) for a complaint.
+        """
+        db_complaint = db.query(Complaint).filter(Complaint.id == complaint_id).first()
+        if not db_complaint:
+            return None
+        return (
+            db.query(ComplaintRemark)
+            .filter(ComplaintRemark.complaint_id == complaint_id)
+            .order_by(ComplaintRemark.created_at.asc())
+            .all()
+        )
+
+    @staticmethod
     def get_complaints(
         db: Session,
         skip: int = 0,
