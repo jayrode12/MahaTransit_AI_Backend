@@ -2,6 +2,9 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.core.config import settings
+from app.api.auth import router as auth_router
+from app.api.citizens import router as citizens_router
+from app.api.admins import router as admins_router
 from app.api.complaints import router as complaints_router
 
 app = FastAPI(
@@ -23,4 +26,7 @@ if settings.BACKEND_CORS_ORIGINS:
     )
 
 # Register API v1 Routers
+app.include_router(auth_router, prefix=settings.API_V1_STR)
+app.include_router(citizens_router, prefix=settings.API_V1_STR)
+app.include_router(admins_router, prefix=settings.API_V1_STR)
 app.include_router(complaints_router, prefix=settings.API_V1_STR)
