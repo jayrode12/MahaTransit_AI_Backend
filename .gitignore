@@ -43,3 +43,14 @@ __pycache__/
 *.sqlite3
 *.db
 uploads/
+
+# Documentation, Blueprints & Guides
+MahaTransit_AI_Implementation_Blueprint.md
+MahaTransit_AI_Database_Structure.md
+MahaTransit_Member1_Auth_User_Guide.md
+brain.md
+*implementation_plan*.md
+*walkthrough*.md
+*guide*.md
+*blueprint*.md
+
