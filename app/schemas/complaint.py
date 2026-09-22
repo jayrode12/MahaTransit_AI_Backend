@@ -112,3 +112,34 @@ class ComplaintListResponse(BaseModel):
     page: int
     limit: int
     pages: int
+
+
+# ---------------------------------------------------------
+# Notification Schemas
+# ---------------------------------------------------------
+class NotificationBase(BaseModel):
+    user_type: str = Field("citizen", description="citizen or admin")
+    user_id: UUID
+    complaint_id: Optional[UUID] = None
+    type: Optional[str] = Field("STATUS_UPDATE", description="Notification event type")
+    title: str = Field(..., max_length=150)
+    message: str
+
+
+class NotificationCreate(NotificationBase):
+    pass
+
+
+class NotificationResponse(NotificationBase):
+    id: UUID
+    is_read: bool = False
+    created_at: Optional[datetime] = None
+
+    model_config = ConfigDict(from_attributes=True)
+
+
+class NotificationListResponse(BaseModel):
+    items: List[NotificationResponse]
+    total: int
+    unread_count: int
+

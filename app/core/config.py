@@ -18,6 +18,8 @@ class Settings(BaseSettings):
     SUPABASE_KEY: str = ""
     SUPABASE_SERVICE_ROLE_KEY: str = ""
     SUPABASE_BUCKET: str = "attachments"
+    SUPABASE_ATTACHMENTS_BUCKET: str = "attachments"
+    SUPABASE_VOICE_BUCKET: str = "voice-files"
 
     # CORS Origins allowed for Frontend (React + Vite)
     BACKEND_CORS_ORIGINS: List[str] = [

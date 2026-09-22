@@ -22,6 +22,9 @@ from app.schemas.complaint import (
     ComplaintAttachmentResponse,
     ComplaintRemarkCreate,
     ComplaintRemarkResponse,
+    NotificationCreate,
+    NotificationResponse,
+    NotificationListResponse,
 )
 
 __all__ = [
@@ -42,4 +45,8 @@ __all__ = [
     "ComplaintAttachmentResponse",
     "ComplaintRemarkCreate",
     "ComplaintRemarkResponse",
+    "NotificationCreate",
+    "NotificationResponse",
+    "NotificationListResponse",
 ]
+
