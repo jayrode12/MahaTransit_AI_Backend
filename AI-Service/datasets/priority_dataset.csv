@@ -1,0 +1,601 @@
+complaint_text,transport_type,location,duplicate_score,previous_complaints,severity_indicator,priority
+AC not working on the local train near Borivali makes the ride uncomfortable.,Local Train,Borivali,0.474,16,comfort,Low
+Morning rush hour saw the bus stuck for over an hour at Kurla.,Bus,Kurla,0.412,9,delay,Medium
+Ticket checker at Virar behaved inappropriately.,Local Train,Virar,0.332,18,staff_behavior,Medium
+Overcrowding on the bus near Dadar makes commuting difficult.,Bus,Dadar,0.284,3,comfort,Medium
+Security guard at Virar used excessive force.,Bus,Virar,0.469,20,staff_behavior,Medium
+Morning rush hour saw the metro stuck for over an hour at Borivali.,Metro,Borivali,0.572,4,delay,Medium
+Overcrowding on the local train near Churchgate makes commuting difficult.,Local Train,Churchgate,0.794,2,comfort,Low
+Staff at Kurla was rude and unhelpful to commuters.,Bus,Kurla,0.68,6,staff_behavior,Critical
+Morning rush hour saw the bus stuck for over an hour at Thane.,Bus,Thane,0.39,12,delay,Medium
+Customer service at the bus station in Churchgate ignored complaints.,Bus,Churchgate,0.759,17,staff_behavior,Medium
+Morning rush hour saw the local train stuck for over an hour at Ghatkopar.,Local Train,Ghatkopar,0.367,15,delay,Medium
+The local train at Thane is frequently delayed beyond schedule.,Local Train,Thane,0.551,13,delay,Medium
+Exposed live wire spotted near the metro platform at Borivali.,Metro,Borivali,0.087,11,safety,High
+Overcrowding on the bus near Andheri makes commuting difficult.,Bus,Andheri,0.218,20,comfort,Low
+Dangerous crowding caused a stampede near the bus at Virar.,Bus,Virar,0.784,5,safety,High
+Ticket checker at Thane behaved inappropriately.,Metro,Thane,0.148,20,staff_behavior,Medium
+Staff at Ghatkopar was rude and unhelpful to commuters.,Local Train,Ghatkopar,0.349,3,staff_behavior,Medium
+Smoke was seen coming from the local train at Churchgate.,Local Train,Churchgate,0.43,20,safety,Critical
+Fire alarm triggered due to sparks near the metro platform at Andheri.,Metro,Andheri,0.866,17,safety,Critical
+Graffiti and spilled liquids on the metro platform at Borivali.,Metro,Borivali,0.106,20,cleanliness,Medium
+AC not working on the metro near Kurla makes the ride uncomfortable.,Metro,Kurla,0.937,3,comfort,Medium
+The bus at Dadar is frequently delayed beyond schedule.,Bus,Dadar,0.977,6,delay,High
+A commuter was injured after falling near the local train at Thane.,Local Train,Thane,0.581,20,safety,Critical
+Security guard at Churchgate used excessive force.,Metro,Churchgate,0.793,1,staff_behavior,Medium
+Morning rush hour saw the metro stuck for over an hour at Ghatkopar.,Metro,Ghatkopar,0.495,5,delay,Medium
+The local train service at Virar has become unreliable with constant delays.,Local Train,Virar,0.688,9,delay,Medium
+Overcrowding on the metro near Thane makes commuting difficult.,Metro,Thane,0.13,10,comfort,Low
+Excessive heat and lack of ventilation on the metro at Ghatkopar.,Metro,Ghatkopar,0.34,14,comfort,Critical
+Seats on the metro at Dadar are often broken or missing.,Metro,Dadar,0.826,20,comfort,Medium
+Electrical short caused sparks and smoke near the metro at Churchgate.,Metro,Churchgate,0.372,2,safety,High
+The carriage of the metro in Kurla has foul odor and dirty floors.,Metro,Kurla,0.375,7,cleanliness,Low
+Overcrowding on the local train near Churchgate makes commuting difficult.,Local Train,Churchgate,0.127,14,comfort,Low
+The carriage of the local train in Ghatkopar has foul odor and dirty floors.,Local Train,Ghatkopar,0.05,4,cleanliness,Low
+The carriage of the metro in Virar has foul odor and dirty floors.,Metro,Virar,0.093,7,cleanliness,Low
+Unexpected long delay of the metro caused commuters to miss connections at Andheri.,Metro,Andheri,0.073,20,delay,High
+Graffiti and spilled liquids on the local train platform at Borivali.,Local Train,Borivali,0.503,3,cleanliness,Low
+The local train at Ghatkopar is frequently delayed beyond schedule.,Local Train,Ghatkopar,0.789,12,delay,Medium
+Smoke was seen coming from the local train at Churchgate.,Local Train,Churchgate,0.294,4,safety,High
+Overcrowding on the metro near Ghatkopar makes commuting difficult.,Metro,Ghatkopar,0.453,5,comfort,Low
+Trash bins overflowed on the bus at Borivali.,Bus,Borivali,0.858,19,cleanliness,Medium
+Smoke was seen coming from the local train at Andheri.,Local Train,Andheri,0.254,6,safety,Critical
+A commuter was injured after falling near the bus at Andheri.,Bus,Andheri,0.281,8,safety,High
+The metro platform at Andheri is littered and unclean.,Metro,Andheri,0.779,7,cleanliness,Low
+Dangerous crowding caused a stampede near the local train at Thane.,Local Train,Thane,0.223,7,safety,High
+AC not working on the local train near Borivali makes the ride uncomfortable.,Local Train,Borivali,0.68,6,comfort,Low
+A passenger fell due to a broken step at Churchgate station.,Metro,Churchgate,0.025,1,safety,High
+Dangerous crowding caused a stampede near the metro at Virar.,Metro,Virar,0.877,5,safety,High
+A commuter was injured after falling near the metro at Andheri.,Metro,Andheri,0.392,7,safety,High
+Dangerous crowding caused a stampede near the bus at Virar.,Bus,Virar,0.846,5,safety,Critical
+Trash bins overflowed on the metro at Dadar.,Metro,Dadar,0.544,14,cleanliness,Low
+The carriage of the bus in Virar has foul odor and dirty floors.,Bus,Virar,0.738,1,cleanliness,Critical
+A commuter was injured after falling near the local train at Dadar.,Local Train,Dadar,0.896,9,safety,Low
+The carriage of the bus in Dadar has foul odor and dirty floors.,Bus,Dadar,0.125,14,cleanliness,Critical
+Ticket checker at Kurla behaved inappropriately.,Metro,Kurla,0.825,10,staff_behavior,High
+Staff at Thane was rude and unhelpful to commuters.,Bus,Thane,0.578,18,staff_behavior,Medium
+Electrical short caused sparks and smoke near the metro at Andheri.,Metro,Andheri,0.373,4,safety,High
+Ticket checker at Ghatkopar behaved inappropriately.,Bus,Ghatkopar,0.326,8,staff_behavior,Medium
+Fire alarm triggered due to sparks near the bus platform at Virar.,Bus,Virar,0.008,5,safety,High
+The metro at Ghatkopar is frequently delayed beyond schedule.,Metro,Ghatkopar,0.635,16,delay,High
+Dangerous crowding caused a stampede near the local train at Virar.,Local Train,Virar,0.165,3,safety,High
+Excessive heat and lack of ventilation on the bus at Andheri.,Bus,Andheri,0.265,12,comfort,Low
+The metro platform at Dadar is littered and unclean.,Metro,Dadar,0.005,17,cleanliness,Medium
+Fire alarm triggered due to sparks near the metro platform at Andheri.,Metro,Andheri,0.557,1,safety,High
+Smoke was seen coming from the bus at Ghatkopar.,Bus,Ghatkopar,0.889,2,safety,High
+AC not working on the bus near Ghatkopar makes the ride uncomfortable.,Bus,Ghatkopar,0.607,0,comfort,Low
+Fire alarm triggered due to sparks near the bus platform at Kurla.,Bus,Kurla,0.953,5,safety,Critical
+A commuter was injured after falling near the metro at Thane.,Metro,Thane,0.415,16,safety,Critical
+Ticket checker at Ghatkopar behaved inappropriately.,Bus,Ghatkopar,0.66,1,staff_behavior,Medium
+The local train platform at Borivali is littered and unclean.,Local Train,Borivali,0.744,0,cleanliness,Low
+AC not working on the local train near Thane makes the ride uncomfortable.,Local Train,Thane,0.6,3,comfort,Low
+Morning rush hour saw the metro stuck for over an hour at Borivali.,Metro,Borivali,0.216,2,delay,Medium
+The bus platform at Ghatkopar is littered and unclean.,Bus,Ghatkopar,0.804,8,cleanliness,High
+The carriage of the bus in Virar has foul odor and dirty floors.,Bus,Virar,0.473,17,cleanliness,Medium
+The metro at Virar is frequently delayed beyond schedule.,Metro,Virar,0.663,3,delay,Medium
+Trash bins overflowed on the metro at Virar.,Metro,Virar,0.881,14,cleanliness,Low
+Fire alarm triggered due to sparks near the local train platform at Andheri.,Local Train,Andheri,0.783,6,safety,Low
+Seats on the bus at Virar are often broken or missing.,Bus,Virar,0.1,16,comfort,Critical
+The metro platform at Ghatkopar is littered and unclean.,Metro,Ghatkopar,0.161,20,cleanliness,Medium
+Graffiti and spilled liquids on the metro platform at Ghatkopar.,Metro,Ghatkopar,0.353,6,cleanliness,Low
+Exposed live wire spotted near the bus platform at Churchgate.,Bus,Churchgate,0.28,7,safety,High
+Unexpected long delay of the bus caused commuters to miss connections at Kurla.,Bus,Kurla,0.623,3,delay,Medium
+A commuter was injured after falling near the bus at Virar.,Bus,Virar,0.339,8,safety,High
+The carriage of the bus in Borivali has foul odor and dirty floors.,Bus,Borivali,0.169,10,cleanliness,Low
+Staff at Churchgate was rude and unhelpful to commuters.,Bus,Churchgate,0.131,7,staff_behavior,Medium
+The metro platform at Virar is littered and unclean.,Metro,Virar,0.784,14,cleanliness,Low
+Dangerous crowding caused a stampede near the local train at Churchgate.,Local Train,Churchgate,0.209,14,safety,High
+The local train platform at Dadar is littered and unclean.,Local Train,Dadar,0.828,20,cleanliness,Critical
+The bus platform at Ghatkopar is littered and unclean.,Bus,Ghatkopar,0.437,15,cleanliness,High
+Smoke was seen coming from the bus at Andheri.,Bus,Andheri,0.216,13,safety,High
+Morning rush hour saw the local train stuck for over an hour at Andheri.,Local Train,Andheri,0.881,12,delay,High
+Staff at Borivali was rude and unhelpful to commuters.,Metro,Borivali,0.482,17,staff_behavior,High
+Fire alarm triggered due to sparks near the local train platform at Kurla.,Local Train,Kurla,0.717,0,safety,High
+Unexpected long delay of the bus caused commuters to miss connections at Churchgate.,Bus,Churchgate,0.942,4,delay,High
+AC not working on the local train near Borivali makes the ride uncomfortable.,Local Train,Borivali,0.851,7,comfort,Low
+Unexpected long delay of the local train caused commuters to miss connections at Borivali.,Local Train,Borivali,0.351,4,delay,Medium
+Unexpected long delay of the metro caused commuters to miss connections at Virar.,Metro,Virar,0.454,10,delay,Medium
+Customer service at the bus station in Churchgate ignored complaints.,Bus,Churchgate,0.996,1,staff_behavior,High
+Seats on the metro at Kurla are often broken or missing.,Metro,Kurla,0.957,12,comfort,Low
+Dangerous crowding caused a stampede near the local train at Borivali.,Local Train,Borivali,0.108,1,safety,High
+Staff at Churchgate was rude and unhelpful to commuters.,Local Train,Churchgate,0.777,8,staff_behavior,Medium
+Morning rush hour saw the bus stuck for over an hour at Andheri.,Bus,Andheri,0.186,19,delay,High
+Smoke was seen coming from the metro at Kurla.,Metro,Kurla,0.164,17,safety,Critical
+AC not working on the metro near Andheri makes the ride uncomfortable.,Metro,Andheri,0.637,16,comfort,Low
+Overcrowding on the local train near Ghatkopar makes commuting difficult.,Local Train,Ghatkopar,0.609,8,comfort,High
+Excessive heat and lack of ventilation on the bus at Dadar.,Bus,Dadar,0.848,4,comfort,Medium
+Morning rush hour saw the metro stuck for over an hour at Churchgate.,Metro,Churchgate,0.863,7,delay,High
+Security guard at Thane used excessive force.,Local Train,Thane,0.942,16,staff_behavior,High
+Overcrowding on the local train near Dadar makes commuting difficult.,Local Train,Dadar,0.153,12,comfort,Low
+Trash bins overflowed on the local train at Dadar.,Local Train,Dadar,0.812,19,cleanliness,Medium
+A passenger fell due to a broken step at Dadar station.,Metro,Dadar,0.64,7,safety,High
+Electrical short caused sparks and smoke near the metro at Borivali.,Metro,Borivali,0.035,0,safety,High
+The local train service at Kurla has become unreliable with constant delays.,Local Train,Kurla,0.935,5,delay,High
+Staff at Kurla was rude and unhelpful to commuters.,Bus,Kurla,0.022,19,staff_behavior,Medium
+Excessive heat and lack of ventilation on the bus at Ghatkopar.,Bus,Ghatkopar,0.419,8,comfort,Low
+Fire alarm triggered due to sparks near the metro platform at Virar.,Metro,Virar,0.841,18,safety,Critical
+Staff at Dadar was rude and unhelpful to commuters.,Bus,Dadar,0.61,2,staff_behavior,Medium
+Ticket checker at Ghatkopar behaved inappropriately.,Local Train,Ghatkopar,0.815,12,staff_behavior,Low
+A commuter was injured after falling near the bus at Virar.,Bus,Virar,0.434,1,safety,High
+Graffiti and spilled liquids on the metro platform at Andheri.,Metro,Andheri,0.287,11,cleanliness,Low
+The carriage of the bus in Churchgate has foul odor and dirty floors.,Bus,Churchgate,0.147,8,cleanliness,Low
+Smoke was seen coming from the bus at Dadar.,Bus,Dadar,0.68,20,safety,Critical
+AC not working on the local train near Churchgate makes the ride uncomfortable.,Local Train,Churchgate,0.672,0,comfort,Low
+Exposed live wire spotted near the metro platform at Thane.,Metro,Thane,0.586,7,safety,High
+The carriage of the bus in Andheri has foul odor and dirty floors.,Bus,Andheri,0.328,20,cleanliness,Medium
+Staff at Kurla was rude and unhelpful to commuters.,Metro,Kurla,0.032,10,staff_behavior,Medium
+Staff at Andheri was rude and unhelpful to commuters.,Bus,Andheri,0.688,16,staff_behavior,Medium
+Excessive heat and lack of ventilation on the bus at Kurla.,Bus,Kurla,0.906,1,comfort,Medium
+Dangerous crowding caused a stampede near the bus at Andheri.,Bus,Andheri,0.331,14,safety,High
+Graffiti and spilled liquids on the bus platform at Churchgate.,Bus,Churchgate,0.411,19,cleanliness,Medium
+A passenger fell due to a broken step at Borivali station.,Metro,Borivali,0.117,0,safety,Medium
+The local train platform at Dadar is littered and unclean.,Local Train,Dadar,0.804,14,cleanliness,Low
+Exposed live wire spotted near the bus platform at Andheri.,Bus,Andheri,0.685,18,safety,Critical
+The bus platform at Churchgate is littered and unclean.,Bus,Churchgate,0.309,15,cleanliness,Low
+Excessive heat and lack of ventilation on the bus at Thane.,Bus,Thane,0.61,12,comfort,Critical
+The local train service at Kurla has become unreliable with constant delays.,Local Train,Kurla,0.432,5,delay,Medium
+Fire alarm triggered due to sparks near the local train platform at Andheri.,Local Train,Andheri,0.481,15,safety,High
+Morning rush hour saw the metro stuck for over an hour at Dadar.,Metro,Dadar,0.781,6,delay,High
+Trash bins overflowed on the local train at Dadar.,Local Train,Dadar,0.109,19,cleanliness,High
+Security guard at Ghatkopar used excessive force.,Local Train,Ghatkopar,0.614,3,staff_behavior,Medium
+Staff at Thane was rude and unhelpful to commuters.,Metro,Thane,0.47,5,staff_behavior,Medium
+Smoke was seen coming from the metro at Dadar.,Metro,Dadar,0.707,3,safety,High
+Staff at Kurla was rude and unhelpful to commuters.,Local Train,Kurla,0.943,3,staff_behavior,High
+Excessive heat and lack of ventilation on the bus at Ghatkopar.,Bus,Ghatkopar,0.965,0,comfort,Medium
+The bus service at Virar has become unreliable with constant delays.,Bus,Virar,0.639,19,delay,High
+A passenger fell due to a broken step at Thane station.,Local Train,Thane,0.856,1,safety,High
+Staff at Andheri was rude and unhelpful to commuters.,Local Train,Andheri,0.94,1,staff_behavior,Medium
+Unexpected long delay of the metro caused commuters to miss connections at Virar.,Metro,Virar,0.453,11,delay,Critical
+The local train service at Virar has become unreliable with constant delays.,Local Train,Virar,0.98,13,delay,High
+The metro service at Borivali has become unreliable with constant delays.,Metro,Borivali,0.975,20,delay,High
+Customer service at the metro station in Dadar ignored complaints.,Metro,Dadar,0.758,15,staff_behavior,Medium
+Overcrowding on the local train near Thane makes commuting difficult.,Local Train,Thane,0.721,13,comfort,Low
+The local train at Churchgate is frequently delayed beyond schedule.,Local Train,Churchgate,0.536,6,delay,Medium
+AC not working on the bus near Borivali makes the ride uncomfortable.,Bus,Borivali,0.031,10,comfort,Low
+Electrical short caused sparks and smoke near the metro at Virar.,Metro,Virar,0.875,19,safety,Critical
+Dangerous crowding caused a stampede near the bus at Borivali.,Bus,Borivali,0.022,1,safety,High
+Dangerous crowding caused a stampede near the bus at Virar.,Bus,Virar,0.994,1,safety,Critical
+Morning rush hour saw the metro stuck for over an hour at Borivali.,Metro,Borivali,0.057,13,delay,Medium
+Trash bins overflowed on the bus at Kurla.,Bus,Kurla,0.379,16,cleanliness,High
+Exposed live wire spotted near the bus platform at Dadar.,Bus,Dadar,0.179,18,safety,Medium
+The metro service at Borivali has become unreliable with constant delays.,Metro,Borivali,0.635,19,delay,High
+Dangerous crowding caused a stampede near the bus at Thane.,Bus,Thane,0.306,2,safety,High
+The bus platform at Churchgate is littered and unclean.,Bus,Churchgate,0.085,0,cleanliness,Low
+The bus platform at Ghatkopar is littered and unclean.,Bus,Ghatkopar,0.469,5,cleanliness,Low
+The metro platform at Andheri is littered and unclean.,Metro,Andheri,0.512,3,cleanliness,Low
+The bus platform at Dadar is littered and unclean.,Bus,Dadar,0.632,12,cleanliness,Low
+Overcrowding on the local train near Ghatkopar makes commuting difficult.,Local Train,Ghatkopar,0.1,19,comfort,Low
+AC not working on the metro near Churchgate makes the ride uncomfortable.,Metro,Churchgate,0.248,20,comfort,Low
+Security guard at Borivali used excessive force.,Local Train,Borivali,0.486,9,staff_behavior,Medium
+Customer service at the local train station in Borivali ignored complaints.,Local Train,Borivali,0.986,6,staff_behavior,Critical
+Customer service at the local train station in Virar ignored complaints.,Local Train,Virar,0.306,12,staff_behavior,Medium
+Morning rush hour saw the local train stuck for over an hour at Virar.,Local Train,Virar,0.851,3,delay,High
+Morning rush hour saw the local train stuck for over an hour at Churchgate.,Local Train,Churchgate,0.013,19,delay,High
+The local train at Thane is frequently delayed beyond schedule.,Local Train,Thane,0.541,15,delay,Medium
+Security guard at Andheri used excessive force.,Local Train,Andheri,0.414,13,staff_behavior,Medium
+Security guard at Dadar used excessive force.,Local Train,Dadar,0.714,3,staff_behavior,Medium
+AC not working on the local train near Andheri makes the ride uncomfortable.,Local Train,Andheri,0.192,5,comfort,Low
+Exposed live wire spotted near the bus platform at Kurla.,Bus,Kurla,0.8,2,safety,High
+Unexpected long delay of the bus caused commuters to miss connections at Kurla.,Bus,Kurla,0.151,19,delay,High
+Customer service at the local train station in Borivali ignored complaints.,Local Train,Borivali,0.697,2,staff_behavior,Medium
+Electrical short caused sparks and smoke near the bus at Ghatkopar.,Bus,Ghatkopar,0.678,16,safety,Critical
+A commuter was injured after falling near the metro at Dadar.,Metro,Dadar,0.767,5,safety,Medium
+Security guard at Kurla used excessive force.,Local Train,Kurla,0.017,19,staff_behavior,Medium
+Staff at Thane was rude and unhelpful to commuters.,Metro,Thane,0.767,10,staff_behavior,Medium
+Excessive heat and lack of ventilation on the local train at Thane.,Local Train,Thane,0.921,13,comfort,Medium
+The local train at Virar is frequently delayed beyond schedule.,Local Train,Virar,0.988,3,delay,High
+The metro service at Churchgate has become unreliable with constant delays.,Metro,Churchgate,0.588,9,delay,Medium
+Overcrowding on the local train near Churchgate makes commuting difficult.,Local Train,Churchgate,0.452,4,comfort,Low
+Unexpected long delay of the local train caused commuters to miss connections at Andheri.,Local Train,Andheri,0.724,13,delay,Medium
+Unexpected long delay of the bus caused commuters to miss connections at Virar.,Bus,Virar,0.574,17,delay,High
+Dangerous crowding caused a stampede near the bus at Dadar.,Bus,Dadar,0.665,8,safety,Medium
+Smoke was seen coming from the local train at Thane.,Local Train,Thane,0.173,4,safety,Critical
+Staff at Andheri was rude and unhelpful to commuters.,Local Train,Andheri,0.293,14,staff_behavior,Medium
+The metro at Kurla is frequently delayed beyond schedule.,Metro,Kurla,0.212,15,delay,Medium
+The metro platform at Dadar is littered and unclean.,Metro,Dadar,0.384,10,cleanliness,Low
+Unexpected long delay of the bus caused commuters to miss connections at Thane.,Bus,Thane,0.482,10,delay,Medium
+The bus platform at Andheri is littered and unclean.,Bus,Andheri,0.35,1,cleanliness,Low
+Fire alarm triggered due to sparks near the metro platform at Borivali.,Metro,Borivali,0.91,17,safety,Critical
+Seats on the bus at Virar are often broken or missing.,Bus,Virar,0.167,9,comfort,Critical
+Security guard at Churchgate used excessive force.,Bus,Churchgate,0.471,12,staff_behavior,Medium
+A commuter was injured after falling near the bus at Thane.,Bus,Thane,0.642,11,safety,High
+A passenger fell due to a broken step at Kurla station.,Local Train,Kurla,0.389,18,safety,Medium
+Morning rush hour saw the bus stuck for over an hour at Kurla.,Bus,Kurla,0.538,3,delay,Medium
+Overcrowding on the bus near Churchgate makes commuting difficult.,Bus,Churchgate,0.623,20,comfort,Low
+The metro at Kurla is frequently delayed beyond schedule.,Metro,Kurla,0.836,11,delay,High
+The local train at Churchgate is frequently delayed beyond schedule.,Local Train,Churchgate,0.577,20,delay,High
+Ticket checker at Dadar behaved inappropriately.,Metro,Dadar,0.907,14,staff_behavior,Critical
+Excessive heat and lack of ventilation on the metro at Churchgate.,Metro,Churchgate,0.21,15,comfort,Low
+Staff at Dadar was rude and unhelpful to commuters.,Metro,Dadar,0.377,8,staff_behavior,Medium
+Exposed live wire spotted near the metro platform at Virar.,Metro,Virar,0.183,15,safety,High
+Trash bins overflowed on the local train at Dadar.,Local Train,Dadar,0.499,13,cleanliness,Low
+Excessive heat and lack of ventilation on the metro at Andheri.,Metro,Andheri,0.943,18,comfort,Medium
+Customer service at the metro station in Kurla ignored complaints.,Metro,Kurla,0.516,15,staff_behavior,High
+The carriage of the local train in Kurla has foul odor and dirty floors.,Local Train,Kurla,0.743,17,cleanliness,Medium
+Trash bins overflowed on the local train at Thane.,Local Train,Thane,0.101,16,cleanliness,Medium
+AC not working on the local train near Virar makes the ride uncomfortable.,Local Train,Virar,0.521,5,comfort,Low
+Excessive heat and lack of ventilation on the metro at Thane.,Metro,Thane,0.633,15,comfort,Low
+Customer service at the local train station in Thane ignored complaints.,Local Train,Thane,0.435,19,staff_behavior,Medium
+Seats on the metro at Borivali are often broken or missing.,Metro,Borivali,0.253,6,comfort,Low
+Dangerous crowding caused a stampede near the bus at Thane.,Bus,Thane,0.804,16,safety,Medium
+Graffiti and spilled liquids on the local train platform at Borivali.,Local Train,Borivali,0.907,2,cleanliness,Low
+Ticket checker at Churchgate behaved inappropriately.,Bus,Churchgate,0.754,18,staff_behavior,Medium
+Trash bins overflowed on the local train at Dadar.,Local Train,Dadar,0.593,11,cleanliness,Low
+Overcrowding on the bus near Borivali makes commuting difficult.,Bus,Borivali,0.233,11,comfort,Critical
+Staff at Andheri was rude and unhelpful to commuters.,Bus,Andheri,0.797,11,staff_behavior,Medium
+Security guard at Ghatkopar used excessive force.,Metro,Ghatkopar,0.594,2,staff_behavior,Medium
+Fire alarm triggered due to sparks near the local train platform at Churchgate.,Local Train,Churchgate,0.798,6,safety,High
+Excessive heat and lack of ventilation on the metro at Kurla.,Metro,Kurla,0.297,12,comfort,Low
+Security guard at Dadar used excessive force.,Metro,Dadar,0.219,0,staff_behavior,Medium
+Exposed live wire spotted near the local train platform at Kurla.,Local Train,Kurla,0.307,8,safety,High
+The carriage of the local train in Virar has foul odor and dirty floors.,Local Train,Virar,0.432,3,cleanliness,Low
+Staff at Andheri was rude and unhelpful to commuters.,Metro,Andheri,0.882,0,staff_behavior,Low
+The carriage of the local train in Andheri has foul odor and dirty floors.,Local Train,Andheri,0.414,10,cleanliness,Low
+AC not working on the metro near Borivali makes the ride uncomfortable.,Metro,Borivali,0.991,20,comfort,Medium
+Customer service at the bus station in Virar ignored complaints.,Bus,Virar,0.955,0,staff_behavior,High
+Unexpected long delay of the metro caused commuters to miss connections at Thane.,Metro,Thane,0.476,16,delay,High
+Trash bins overflowed on the bus at Borivali.,Bus,Borivali,0.832,19,cleanliness,Medium
+The bus service at Borivali has become unreliable with constant delays.,Bus,Borivali,0.867,17,delay,Medium
+Security guard at Thane used excessive force.,Bus,Thane,0.44,16,staff_behavior,Medium
+AC not working on the local train near Ghatkopar makes the ride uncomfortable.,Local Train,Ghatkopar,0.289,15,comfort,Low
+Seats on the local train at Churchgate are often broken or missing.,Local Train,Churchgate,0.725,11,comfort,Low
+Unexpected long delay of the metro caused commuters to miss connections at Andheri.,Metro,Andheri,0.263,20,delay,High
+The carriage of the bus in Dadar has foul odor and dirty floors.,Bus,Dadar,0.34,5,cleanliness,Low
+Overcrowding on the metro near Thane makes commuting difficult.,Metro,Thane,0.729,20,comfort,Low
+Overcrowding on the metro near Dadar makes commuting difficult.,Metro,Dadar,0.362,13,comfort,Low
+Overcrowding on the local train near Dadar makes commuting difficult.,Local Train,Dadar,0.42,1,comfort,Low
+Unexpected long delay of the bus caused commuters to miss connections at Borivali.,Bus,Borivali,0.176,5,delay,Medium
+Fire alarm triggered due to sparks near the bus platform at Dadar.,Bus,Dadar,0.969,14,safety,Critical
+Excessive heat and lack of ventilation on the bus at Kurla.,Bus,Kurla,0.087,14,comfort,Low
+Staff at Thane was rude and unhelpful to commuters.,Bus,Thane,0.829,16,staff_behavior,High
+AC not working on the bus near Borivali makes the ride uncomfortable.,Bus,Borivali,0.412,12,comfort,Critical
+Trash bins overflowed on the metro at Churchgate.,Metro,Churchgate,0.451,16,cleanliness,Medium
+AC not working on the metro near Kurla makes the ride uncomfortable.,Metro,Kurla,0.954,18,comfort,Medium
+Overcrowding on the bus near Virar makes commuting difficult.,Bus,Virar,0.087,3,comfort,Low
+The local train at Kurla is frequently delayed beyond schedule.,Local Train,Kurla,0.698,13,delay,Medium
+Staff at Ghatkopar was rude and unhelpful to commuters.,Bus,Ghatkopar,0.173,6,staff_behavior,Medium
+Seats on the metro at Thane are often broken or missing.,Metro,Thane,0.939,3,comfort,Medium
+Unexpected long delay of the metro caused commuters to miss connections at Virar.,Metro,Virar,0.732,19,delay,High
+Ticket checker at Dadar behaved inappropriately.,Bus,Dadar,0.462,18,staff_behavior,Medium
+Overcrowding on the metro near Dadar makes commuting difficult.,Metro,Dadar,0.327,10,comfort,Low
+Security guard at Thane used excessive force.,Metro,Thane,0.444,12,staff_behavior,Medium
+Security guard at Virar used excessive force.,Bus,Virar,0.782,13,staff_behavior,Low
+Morning rush hour saw the bus stuck for over an hour at Virar.,Bus,Virar,0.917,16,delay,High
+The bus service at Borivali has become unreliable with constant delays.,Bus,Borivali,0.102,17,delay,High
+Customer service at the local train station in Andheri ignored complaints.,Local Train,Andheri,0.393,9,staff_behavior,Medium
+Overcrowding on the local train near Kurla makes commuting difficult.,Local Train,Kurla,0.241,17,comfort,Medium
+Security guard at Kurla used excessive force.,Metro,Kurla,0.006,18,staff_behavior,Medium
+Staff at Andheri was rude and unhelpful to commuters.,Local Train,Andheri,0.194,19,staff_behavior,Medium
+AC not working on the bus near Kurla makes the ride uncomfortable.,Bus,Kurla,0.735,5,comfort,Low
+Security guard at Churchgate used excessive force.,Metro,Churchgate,0.874,17,staff_behavior,High
+Staff at Virar was rude and unhelpful to commuters.,Bus,Virar,0.277,0,staff_behavior,Medium
+Graffiti and spilled liquids on the bus platform at Dadar.,Bus,Dadar,0.444,3,cleanliness,Low
+Excessive heat and lack of ventilation on the bus at Thane.,Bus,Thane,1.0,3,comfort,High
+A passenger fell due to a broken step at Ghatkopar station.,Local Train,Ghatkopar,0.52,13,safety,High
+The local train platform at Kurla is littered and unclean.,Local Train,Kurla,0.137,18,cleanliness,Medium
+Graffiti and spilled liquids on the local train platform at Thane.,Local Train,Thane,0.061,2,cleanliness,Low
+Security guard at Andheri used excessive force.,Bus,Andheri,0.686,3,staff_behavior,Medium
+AC not working on the bus near Ghatkopar makes the ride uncomfortable.,Bus,Ghatkopar,0.825,10,comfort,Medium
+Security guard at Kurla used excessive force.,Bus,Kurla,0.792,19,staff_behavior,Medium
+The bus platform at Virar is littered and unclean.,Bus,Virar,0.202,1,cleanliness,Low
+Excessive heat and lack of ventilation on the local train at Andheri.,Local Train,Andheri,0.48,9,comfort,Low
+Graffiti and spilled liquids on the local train platform at Ghatkopar.,Local Train,Ghatkopar,0.446,12,cleanliness,Low
+Excessive heat and lack of ventilation on the bus at Churchgate.,Bus,Churchgate,0.061,6,comfort,Low
+Ticket checker at Dadar behaved inappropriately.,Bus,Dadar,0.165,7,staff_behavior,Medium
+The bus at Thane is frequently delayed beyond schedule.,Bus,Thane,0.045,14,delay,Medium
+Customer service at the metro station in Andheri ignored complaints.,Metro,Andheri,0.809,8,staff_behavior,High
+Excessive heat and lack of ventilation on the metro at Virar.,Metro,Virar,0.541,14,comfort,Low
+Dangerous crowding caused a stampede near the metro at Churchgate.,Metro,Churchgate,0.252,20,safety,Critical
+The local train service at Virar has become unreliable with constant delays.,Local Train,Virar,0.633,3,delay,Medium
+Graffiti and spilled liquids on the local train platform at Dadar.,Local Train,Dadar,0.404,19,cleanliness,Medium
+Customer service at the metro station in Andheri ignored complaints.,Metro,Andheri,0.544,20,staff_behavior,Medium
+Staff at Dadar was rude and unhelpful to commuters.,Local Train,Dadar,0.649,10,staff_behavior,Critical
+Graffiti and spilled liquids on the metro platform at Ghatkopar.,Metro,Ghatkopar,0.786,14,cleanliness,Low
+Overcrowding on the local train near Churchgate makes commuting difficult.,Local Train,Churchgate,0.91,19,comfort,Medium
+A passenger fell due to a broken step at Thane station.,Metro,Thane,0.691,19,safety,Critical
+Overcrowding on the metro near Kurla makes commuting difficult.,Metro,Kurla,0.047,2,comfort,Low
+Customer service at the bus station in Thane ignored complaints.,Bus,Thane,0.441,20,staff_behavior,Medium
+The carriage of the bus in Kurla has foul odor and dirty floors.,Bus,Kurla,0.609,15,cleanliness,Low
+Customer service at the metro station in Kurla ignored complaints.,Metro,Kurla,0.581,16,staff_behavior,Medium
+The bus at Dadar is frequently delayed beyond schedule.,Bus,Dadar,0.737,3,delay,Medium
+Security guard at Virar used excessive force.,Bus,Virar,0.34,3,staff_behavior,Medium
+A passenger fell due to a broken step at Virar station.,Metro,Virar,0.07,8,safety,High
+AC not working on the local train near Churchgate makes the ride uncomfortable.,Local Train,Churchgate,0.974,11,comfort,Medium
+A commuter was injured after falling near the metro at Thane.,Metro,Thane,0.321,4,safety,High
+Ticket checker at Ghatkopar behaved inappropriately.,Metro,Ghatkopar,0.673,3,staff_behavior,Medium
+The metro at Churchgate is frequently delayed beyond schedule.,Metro,Churchgate,0.2,15,delay,Medium
+The metro at Thane is frequently delayed beyond schedule.,Metro,Thane,0.011,14,delay,Medium
+Ticket checker at Borivali behaved inappropriately.,Local Train,Borivali,0.059,12,staff_behavior,Medium
+Ticket checker at Churchgate behaved inappropriately.,Bus,Churchgate,0.486,14,staff_behavior,Medium
+Fire alarm triggered due to sparks near the metro platform at Andheri.,Metro,Andheri,0.956,0,safety,Critical
+Excessive heat and lack of ventilation on the local train at Andheri.,Local Train,Andheri,0.041,0,comfort,Low
+The bus service at Thane has become unreliable with constant delays.,Bus,Thane,0.499,13,delay,Medium
+Exposed live wire spotted near the metro platform at Andheri.,Metro,Andheri,0.521,11,safety,High
+Unexpected long delay of the local train caused commuters to miss connections at Ghatkopar.,Local Train,Ghatkopar,0.758,5,delay,Medium
+Excessive heat and lack of ventilation on the metro at Thane.,Metro,Thane,0.056,20,comfort,Low
+Smoke was seen coming from the local train at Andheri.,Local Train,Andheri,0.542,15,safety,Medium
+The bus platform at Virar is littered and unclean.,Bus,Virar,0.619,10,cleanliness,Low
+Trash bins overflowed on the metro at Borivali.,Metro,Borivali,0.663,15,cleanliness,Low
+The local train at Andheri is frequently delayed beyond schedule.,Local Train,Andheri,0.655,18,delay,High
+The bus at Kurla is frequently delayed beyond schedule.,Bus,Kurla,0.712,12,delay,Medium
+Security guard at Ghatkopar used excessive force.,Bus,Ghatkopar,0.208,2,staff_behavior,Medium
+Unexpected long delay of the bus caused commuters to miss connections at Thane.,Bus,Thane,0.785,1,delay,Medium
+Seats on the metro at Virar are often broken or missing.,Metro,Virar,0.12,6,comfort,Low
+Ticket checker at Borivali behaved inappropriately.,Metro,Borivali,0.729,14,staff_behavior,Medium
+Morning rush hour saw the metro stuck for over an hour at Borivali.,Metro,Borivali,0.53,13,delay,Medium
+The bus platform at Kurla is littered and unclean.,Bus,Kurla,0.468,1,cleanliness,Low
+Staff at Borivali was rude and unhelpful to commuters.,Bus,Borivali,0.536,5,staff_behavior,Medium
+Electrical short caused sparks and smoke near the local train at Borivali.,Local Train,Borivali,0.014,4,safety,High
+Seats on the metro at Churchgate are often broken or missing.,Metro,Churchgate,0.538,1,comfort,Low
+Dangerous crowding caused a stampede near the bus at Borivali.,Bus,Borivali,0.844,11,safety,High
+The bus service at Kurla has become unreliable with constant delays.,Bus,Kurla,0.879,9,delay,High
+The carriage of the bus in Kurla has foul odor and dirty floors.,Bus,Kurla,0.804,17,cleanliness,Medium
+Overcrowding on the metro near Thane makes commuting difficult.,Metro,Thane,0.246,0,comfort,Low
+The bus at Andheri is frequently delayed beyond schedule.,Bus,Andheri,0.3,11,delay,Medium
+The carriage of the local train in Ghatkopar has foul odor and dirty floors.,Local Train,Ghatkopar,0.15,11,cleanliness,Medium
+Smoke was seen coming from the local train at Virar.,Local Train,Virar,0.968,10,safety,Critical
+Dangerous crowding caused a stampede near the bus at Andheri.,Bus,Andheri,0.295,20,safety,Critical
+The carriage of the bus in Borivali has foul odor and dirty floors.,Bus,Borivali,0.791,7,cleanliness,High
+Smoke was seen coming from the local train at Virar.,Local Train,Virar,0.217,7,safety,High
+Excessive heat and lack of ventilation on the metro at Ghatkopar.,Metro,Ghatkopar,0.978,3,comfort,Medium
+Ticket checker at Borivali behaved inappropriately.,Metro,Borivali,0.958,17,staff_behavior,High
+Customer service at the local train station in Dadar ignored complaints.,Local Train,Dadar,0.048,17,staff_behavior,Medium
+A commuter was injured after falling near the metro at Thane.,Metro,Thane,0.752,6,safety,High
+AC not working on the bus near Churchgate makes the ride uncomfortable.,Bus,Churchgate,0.592,5,comfort,Low
+The metro service at Andheri has become unreliable with constant delays.,Metro,Andheri,0.081,16,delay,High
+Ticket checker at Thane behaved inappropriately.,Bus,Thane,0.838,1,staff_behavior,High
+The bus service at Borivali has become unreliable with constant delays.,Bus,Borivali,0.128,2,delay,Medium
+Customer service at the metro station in Ghatkopar ignored complaints.,Metro,Ghatkopar,0.464,9,staff_behavior,Medium
+The bus at Kurla is frequently delayed beyond schedule.,Bus,Kurla,0.838,4,delay,High
+Morning rush hour saw the local train stuck for over an hour at Kurla.,Local Train,Kurla,0.963,0,delay,High
+Morning rush hour saw the bus stuck for over an hour at Ghatkopar.,Bus,Ghatkopar,0.314,1,delay,Medium
+Unexpected long delay of the local train caused commuters to miss connections at Thane.,Local Train,Thane,0.67,14,delay,Medium
+Staff at Kurla was rude and unhelpful to commuters.,Bus,Kurla,0.935,14,staff_behavior,High
+Ticket checker at Borivali behaved inappropriately.,Metro,Borivali,0.732,11,staff_behavior,Medium
+Unexpected long delay of the metro caused commuters to miss connections at Andheri.,Metro,Andheri,0.518,20,delay,High
+The carriage of the metro in Churchgate has foul odor and dirty floors.,Metro,Churchgate,0.034,5,cleanliness,Critical
+Seats on the local train at Churchgate are often broken or missing.,Local Train,Churchgate,0.012,9,comfort,Low
+Unexpected long delay of the bus caused commuters to miss connections at Dadar.,Bus,Dadar,0.98,16,delay,High
+A passenger fell due to a broken step at Thane station.,Local Train,Thane,0.0,0,safety,High
+The carriage of the bus in Churchgate has foul odor and dirty floors.,Bus,Churchgate,0.376,7,cleanliness,Low
+Dangerous crowding caused a stampede near the metro at Virar.,Metro,Virar,0.462,0,safety,High
+AC not working on the bus near Dadar makes the ride uncomfortable.,Bus,Dadar,0.845,20,comfort,Medium
+The carriage of the bus in Kurla has foul odor and dirty floors.,Bus,Kurla,0.254,1,cleanliness,Low
+Electrical short caused sparks and smoke near the metro at Dadar.,Metro,Dadar,0.419,16,safety,Critical
+Overcrowding on the local train near Dadar makes commuting difficult.,Local Train,Dadar,0.78,5,comfort,Low
+The bus at Dadar is frequently delayed beyond schedule.,Bus,Dadar,0.853,17,delay,Medium
+Overcrowding on the local train near Borivali makes commuting difficult.,Local Train,Borivali,0.645,11,comfort,Low
+Staff at Andheri was rude and unhelpful to commuters.,Metro,Andheri,0.34,5,staff_behavior,Medium
+Graffiti and spilled liquids on the metro platform at Andheri.,Metro,Andheri,0.971,1,cleanliness,Low
+Graffiti and spilled liquids on the bus platform at Andheri.,Bus,Andheri,0.94,14,cleanliness,Low
+Ticket checker at Andheri behaved inappropriately.,Local Train,Andheri,0.824,6,staff_behavior,High
+Customer service at the metro station in Andheri ignored complaints.,Metro,Andheri,0.991,5,staff_behavior,High
+Unexpected long delay of the metro caused commuters to miss connections at Andheri.,Metro,Andheri,0.557,3,delay,Medium
+Overcrowding on the local train near Borivali makes commuting difficult.,Local Train,Borivali,0.586,18,comfort,High
+The bus service at Churchgate has become unreliable with constant delays.,Bus,Churchgate,0.825,14,delay,High
+A commuter was injured after falling near the bus at Dadar.,Bus,Dadar,0.156,5,safety,High
+The carriage of the bus in Churchgate has foul odor and dirty floors.,Bus,Churchgate,0.741,4,cleanliness,Low
+Ticket checker at Kurla behaved inappropriately.,Local Train,Kurla,0.251,7,staff_behavior,Medium
+Unexpected long delay of the bus caused commuters to miss connections at Ghatkopar.,Bus,Ghatkopar,0.041,6,delay,Medium
+Smoke was seen coming from the local train at Ghatkopar.,Local Train,Ghatkopar,0.491,13,safety,High
+Unexpected long delay of the metro caused commuters to miss connections at Churchgate.,Metro,Churchgate,0.103,4,delay,Medium
+Excessive heat and lack of ventilation on the bus at Thane.,Bus,Thane,0.861,4,comfort,Medium
+Staff at Kurla was rude and unhelpful to commuters.,Metro,Kurla,0.236,20,staff_behavior,High
+The carriage of the metro in Borivali has foul odor and dirty floors.,Metro,Borivali,0.372,12,cleanliness,Medium
+Electrical short caused sparks and smoke near the bus at Churchgate.,Bus,Churchgate,0.021,0,safety,High
+Seats on the local train at Ghatkopar are often broken or missing.,Local Train,Ghatkopar,0.427,11,comfort,Low
+Graffiti and spilled liquids on the local train platform at Borivali.,Local Train,Borivali,0.127,1,cleanliness,Low
+Seats on the local train at Borivali are often broken or missing.,Local Train,Borivali,0.313,8,comfort,Low
+The metro platform at Virar is littered and unclean.,Metro,Virar,0.9,16,cleanliness,Medium
+The carriage of the metro in Borivali has foul odor and dirty floors.,Metro,Borivali,0.325,0,cleanliness,Low
+A passenger fell due to a broken step at Borivali station.,Bus,Borivali,0.171,15,safety,High
+Security guard at Thane used excessive force.,Local Train,Thane,0.256,4,staff_behavior,Medium
+Customer service at the metro station in Borivali ignored complaints.,Metro,Borivali,0.03,8,staff_behavior,Medium
+Electrical short caused sparks and smoke near the local train at Dadar.,Local Train,Dadar,0.769,3,safety,High
+A commuter was injured after falling near the metro at Ghatkopar.,Metro,Ghatkopar,0.693,20,safety,Critical
+Graffiti and spilled liquids on the metro platform at Virar.,Metro,Virar,0.474,9,cleanliness,Low
+The carriage of the local train in Churchgate has foul odor and dirty floors.,Local Train,Churchgate,0.314,4,cleanliness,Low
+Ticket checker at Kurla behaved inappropriately.,Bus,Kurla,0.596,16,staff_behavior,Medium
+The metro platform at Thane is littered and unclean.,Metro,Thane,0.607,2,cleanliness,Low
+Customer service at the metro station in Kurla ignored complaints.,Metro,Kurla,0.732,6,staff_behavior,Low
+A passenger fell due to a broken step at Virar station.,Bus,Virar,0.357,12,safety,High
+Unexpected long delay of the metro caused commuters to miss connections at Dadar.,Metro,Dadar,0.776,2,delay,Medium
+The local train at Borivali is frequently delayed beyond schedule.,Local Train,Borivali,0.428,8,delay,Medium
+A passenger fell due to a broken step at Thane station.,Local Train,Thane,0.866,18,safety,Critical
+Overcrowding on the local train near Andheri makes commuting difficult.,Local Train,Andheri,0.722,10,comfort,Low
+Ticket checker at Borivali behaved inappropriately.,Bus,Borivali,0.754,14,staff_behavior,Medium
+Fire alarm triggered due to sparks near the metro platform at Churchgate.,Metro,Churchgate,0.103,11,safety,High
+Exposed live wire spotted near the local train platform at Virar.,Local Train,Virar,0.377,15,safety,Critical
+Trash bins overflowed on the local train at Andheri.,Local Train,Andheri,0.481,18,cleanliness,Medium
+The carriage of the metro in Borivali has foul odor and dirty floors.,Metro,Borivali,0.909,0,cleanliness,Low
+Electrical short caused sparks and smoke near the local train at Ghatkopar.,Local Train,Ghatkopar,0.955,6,safety,Critical
+A commuter was injured after falling near the bus at Dadar.,Bus,Dadar,0.895,6,safety,High
+Overcrowding on the bus near Thane makes commuting difficult.,Bus,Thane,0.281,9,comfort,Low
+The local train service at Andheri has become unreliable with constant delays.,Local Train,Andheri,0.174,15,delay,Medium
+Fire alarm triggered due to sparks near the local train platform at Churchgate.,Local Train,Churchgate,0.931,19,safety,Critical
+Customer service at the bus station in Churchgate ignored complaints.,Bus,Churchgate,0.695,6,staff_behavior,Medium
+The bus at Churchgate is frequently delayed beyond schedule.,Bus,Churchgate,0.859,5,delay,High
+Overcrowding on the bus near Dadar makes commuting difficult.,Bus,Dadar,0.454,3,comfort,Low
+The carriage of the bus in Borivali has foul odor and dirty floors.,Bus,Borivali,0.528,5,cleanliness,Low
+A passenger fell due to a broken step at Dadar station.,Local Train,Dadar,0.047,10,safety,High
+Security guard at Churchgate used excessive force.,Local Train,Churchgate,0.075,11,staff_behavior,Medium
+Overcrowding on the metro near Andheri makes commuting difficult.,Metro,Andheri,0.246,14,comfort,Low
+Dangerous crowding caused a stampede near the bus at Ghatkopar.,Bus,Ghatkopar,0.997,3,safety,Critical
+The carriage of the local train in Ghatkopar has foul odor and dirty floors.,Local Train,Ghatkopar,0.577,10,cleanliness,Low
+Morning rush hour saw the metro stuck for over an hour at Kurla.,Metro,Kurla,0.057,8,delay,Medium
+The bus at Dadar is frequently delayed beyond schedule.,Bus,Dadar,0.242,15,delay,Medium
+The local train at Churchgate is frequently delayed beyond schedule.,Local Train,Churchgate,0.212,18,delay,High
+Electrical short caused sparks and smoke near the metro at Thane.,Metro,Thane,0.03,14,safety,High
+Unexpected long delay of the metro caused commuters to miss connections at Andheri.,Metro,Andheri,0.122,20,delay,High
+Excessive heat and lack of ventilation on the bus at Andheri.,Bus,Andheri,0.687,11,comfort,Low
+Ticket checker at Kurla behaved inappropriately.,Metro,Kurla,0.403,16,staff_behavior,Medium
+Excessive heat and lack of ventilation on the metro at Churchgate.,Metro,Churchgate,0.075,5,comfort,Low
+A passenger fell due to a broken step at Kurla station.,Bus,Kurla,0.5,12,safety,High
+Dangerous crowding caused a stampede near the local train at Churchgate.,Local Train,Churchgate,0.517,15,safety,High
+Overcrowding on the local train near Churchgate makes commuting difficult.,Local Train,Churchgate,0.414,10,comfort,Low
+Graffiti and spilled liquids on the metro platform at Churchgate.,Metro,Churchgate,0.306,18,cleanliness,Medium
+Seats on the bus at Churchgate are often broken or missing.,Bus,Churchgate,0.477,2,comfort,Low
+A commuter was injured after falling near the bus at Andheri.,Bus,Andheri,0.826,0,safety,High
+Fire alarm triggered due to sparks near the local train platform at Kurla.,Local Train,Kurla,0.745,12,safety,High
+Trash bins overflowed on the bus at Borivali.,Bus,Borivali,0.218,19,cleanliness,Medium
+Security guard at Ghatkopar used excessive force.,Bus,Ghatkopar,0.239,19,staff_behavior,Medium
+Trash bins overflowed on the local train at Ghatkopar.,Local Train,Ghatkopar,0.788,2,cleanliness,Low
+The local train platform at Thane is littered and unclean.,Local Train,Thane,0.961,19,cleanliness,Medium
+Graffiti and spilled liquids on the metro platform at Borivali.,Metro,Borivali,0.665,12,cleanliness,Critical
+Customer service at the bus station in Kurla ignored complaints.,Bus,Kurla,0.151,20,staff_behavior,Medium
+Ticket checker at Ghatkopar behaved inappropriately.,Metro,Ghatkopar,0.881,11,staff_behavior,High
+Customer service at the bus station in Dadar ignored complaints.,Bus,Dadar,0.246,7,staff_behavior,Medium
+Excessive heat and lack of ventilation on the bus at Kurla.,Bus,Kurla,0.481,16,comfort,Low
+Unexpected long delay of the bus caused commuters to miss connections at Dadar.,Bus,Dadar,0.05,0,delay,Medium
+Trash bins overflowed on the bus at Borivali.,Bus,Borivali,0.135,5,cleanliness,Low
+The carriage of the local train in Ghatkopar has foul odor and dirty floors.,Local Train,Ghatkopar,0.143,2,cleanliness,Low
+Graffiti and spilled liquids on the local train platform at Thane.,Local Train,Thane,0.256,11,cleanliness,Low
+The carriage of the local train in Thane has foul odor and dirty floors.,Local Train,Thane,0.32,20,cleanliness,Medium
+Graffiti and spilled liquids on the metro platform at Andheri.,Metro,Andheri,0.524,16,cleanliness,Medium
+A passenger fell due to a broken step at Thane station.,Metro,Thane,0.168,15,safety,High
+The carriage of the metro in Andheri has foul odor and dirty floors.,Metro,Andheri,0.794,9,cleanliness,Low
+Smoke was seen coming from the local train at Kurla.,Local Train,Kurla,0.128,1,safety,High
+Staff at Andheri was rude and unhelpful to commuters.,Local Train,Andheri,0.896,5,staff_behavior,High
+Seats on the bus at Ghatkopar are often broken or missing.,Bus,Ghatkopar,0.088,19,comfort,Low
+The metro at Kurla is frequently delayed beyond schedule.,Metro,Kurla,0.386,18,delay,Medium
+Security guard at Ghatkopar used excessive force.,Metro,Ghatkopar,0.674,10,staff_behavior,Low
+Staff at Thane was rude and unhelpful to commuters.,Bus,Thane,0.204,13,staff_behavior,Medium
+AC not working on the metro near Virar makes the ride uncomfortable.,Metro,Virar,0.731,5,comfort,Low
+Smoke was seen coming from the metro at Churchgate.,Metro,Churchgate,0.978,13,safety,Low
+Seats on the metro at Kurla are often broken or missing.,Metro,Kurla,0.176,6,comfort,Low
+Ticket checker at Virar behaved inappropriately.,Local Train,Virar,0.977,11,staff_behavior,High
+Unexpected long delay of the local train caused commuters to miss connections at Virar.,Local Train,Virar,0.038,7,delay,Medium
+The metro at Borivali is frequently delayed beyond schedule.,Metro,Borivali,0.678,2,delay,Medium
+Staff at Andheri was rude and unhelpful to commuters.,Local Train,Andheri,0.47,20,staff_behavior,Medium
+The bus at Borivali is frequently delayed beyond schedule.,Bus,Borivali,0.904,20,delay,High
+Ticket checker at Borivali behaved inappropriately.,Bus,Borivali,0.221,6,staff_behavior,Medium
+The carriage of the metro in Dadar has foul odor and dirty floors.,Metro,Dadar,0.707,10,cleanliness,Low
+Customer service at the local train station in Andheri ignored complaints.,Local Train,Andheri,0.234,18,staff_behavior,Medium
+Trash bins overflowed on the bus at Kurla.,Bus,Kurla,0.257,6,cleanliness,Low
+Electrical short caused sparks and smoke near the local train at Borivali.,Local Train,Borivali,0.627,16,safety,Critical
+Security guard at Churchgate used excessive force.,Local Train,Churchgate,0.219,18,staff_behavior,Medium
+Graffiti and spilled liquids on the metro platform at Kurla.,Metro,Kurla,0.839,19,cleanliness,Medium
+Staff at Churchgate was rude and unhelpful to commuters.,Local Train,Churchgate,0.71,13,staff_behavior,Medium
+The metro platform at Virar is littered and unclean.,Metro,Virar,0.328,19,cleanliness,Low
+The metro at Dadar is frequently delayed beyond schedule.,Metro,Dadar,0.955,13,delay,High
+Security guard at Thane used excessive force.,Local Train,Thane,0.49,12,staff_behavior,Medium
+Overcrowding on the local train near Ghatkopar makes commuting difficult.,Local Train,Ghatkopar,0.552,16,comfort,Low
+Customer service at the metro station in Thane ignored complaints.,Metro,Thane,0.991,17,staff_behavior,High
+Morning rush hour saw the metro stuck for over an hour at Andheri.,Metro,Andheri,0.335,12,delay,Medium
+Dangerous crowding caused a stampede near the metro at Andheri.,Metro,Andheri,0.391,11,safety,High
+Security guard at Churchgate used excessive force.,Metro,Churchgate,0.516,7,staff_behavior,Medium
+Overcrowding on the bus near Kurla makes commuting difficult.,Bus,Kurla,0.259,11,comfort,Low
+The carriage of the bus in Thane has foul odor and dirty floors.,Bus,Thane,0.335,19,cleanliness,Medium
+Trash bins overflowed on the bus at Churchgate.,Bus,Churchgate,0.448,0,cleanliness,Low
+Security guard at Churchgate used excessive force.,Bus,Churchgate,0.819,14,staff_behavior,High
+Dangerous crowding caused a stampede near the local train at Churchgate.,Local Train,Churchgate,0.147,13,safety,High
+Security guard at Andheri used excessive force.,Local Train,Andheri,0.03,7,staff_behavior,Medium
+Exposed live wire spotted near the bus platform at Ghatkopar.,Bus,Ghatkopar,0.912,3,safety,Critical
+AC not working on the local train near Churchgate makes the ride uncomfortable.,Local Train,Churchgate,0.144,17,comfort,Low
+Ticket checker at Thane behaved inappropriately.,Metro,Thane,0.618,12,staff_behavior,Medium
+Staff at Dadar was rude and unhelpful to commuters.,Bus,Dadar,0.991,7,staff_behavior,High
+Security guard at Ghatkopar used excessive force.,Bus,Ghatkopar,0.235,3,staff_behavior,Medium
+Ticket checker at Dadar behaved inappropriately.,Metro,Dadar,0.764,19,staff_behavior,High
+The bus service at Andheri has become unreliable with constant delays.,Bus,Andheri,0.682,4,delay,Medium
+Customer service at the local train station in Borivali ignored complaints.,Local Train,Borivali,0.428,19,staff_behavior,Medium
+Excessive heat and lack of ventilation on the local train at Andheri.,Local Train,Andheri,0.44,4,comfort,Low
+Security guard at Thane used excessive force.,Metro,Thane,0.274,13,staff_behavior,Medium
+Fire alarm triggered due to sparks near the bus platform at Virar.,Bus,Virar,0.177,3,safety,High
+Ticket checker at Thane behaved inappropriately.,Bus,Thane,0.261,3,staff_behavior,Low
+Customer service at the local train station in Thane ignored complaints.,Local Train,Thane,0.895,17,staff_behavior,High
+Morning rush hour saw the local train stuck for over an hour at Virar.,Local Train,Virar,0.606,4,delay,Medium
+Overcrowding on the bus near Andheri makes commuting difficult.,Bus,Andheri,0.492,6,comfort,Low
+Unexpected long delay of the bus caused commuters to miss connections at Thane.,Bus,Thane,0.472,5,delay,Medium
+Overcrowding on the metro near Dadar makes commuting difficult.,Metro,Dadar,0.438,13,comfort,Low
+Unexpected long delay of the bus caused commuters to miss connections at Ghatkopar.,Bus,Ghatkopar,0.753,0,delay,Medium
+The metro at Andheri is frequently delayed beyond schedule.,Metro,Andheri,0.723,15,delay,Medium
+A commuter was injured after falling near the local train at Dadar.,Local Train,Dadar,0.769,18,safety,Critical
+Unexpected long delay of the metro caused commuters to miss connections at Thane.,Metro,Thane,0.283,11,delay,Medium
+A commuter was injured after falling near the bus at Andheri.,Bus,Andheri,0.467,20,safety,Critical
+The carriage of the metro in Dadar has foul odor and dirty floors.,Metro,Dadar,0.934,10,cleanliness,Low
+Dangerous crowding caused a stampede near the bus at Churchgate.,Bus,Churchgate,0.428,9,safety,High
+Overcrowding on the bus near Virar makes commuting difficult.,Bus,Virar,0.185,19,comfort,High
+The metro platform at Dadar is littered and unclean.,Metro,Dadar,0.173,18,cleanliness,Medium
+The metro platform at Andheri is littered and unclean.,Metro,Andheri,0.372,4,cleanliness,Low
+The carriage of the metro in Dadar has foul odor and dirty floors.,Metro,Dadar,0.696,0,cleanliness,Low
+Excessive heat and lack of ventilation on the bus at Dadar.,Bus,Dadar,0.956,12,comfort,Medium
+Security guard at Borivali used excessive force.,Bus,Borivali,0.479,1,staff_behavior,Medium
+Unexpected long delay of the local train caused commuters to miss connections at Ghatkopar.,Local Train,Ghatkopar,0.877,14,delay,High
+Overcrowding on the local train near Thane makes commuting difficult.,Local Train,Thane,0.499,4,comfort,Low
+The local train platform at Dadar is littered and unclean.,Local Train,Dadar,0.229,10,cleanliness,Medium
+Ticket checker at Ghatkopar behaved inappropriately.,Bus,Ghatkopar,0.467,11,staff_behavior,Medium
+Staff at Andheri was rude and unhelpful to commuters.,Local Train,Andheri,0.523,11,staff_behavior,Medium
+Seats on the local train at Thane are often broken or missing.,Local Train,Thane,0.703,14,comfort,Medium
+Excessive heat and lack of ventilation on the metro at Dadar.,Metro,Dadar,0.842,4,comfort,Medium
+Seats on the bus at Virar are often broken or missing.,Bus,Virar,0.708,13,comfort,Low
+Graffiti and spilled liquids on the metro platform at Thane.,Metro,Thane,0.695,0,cleanliness,Low
+Overcrowding on the bus near Thane makes commuting difficult.,Bus,Thane,0.069,4,comfort,Low
+Morning rush hour saw the bus stuck for over an hour at Virar.,Bus,Virar,0.711,14,delay,Medium
+Customer service at the bus station in Thane ignored complaints.,Bus,Thane,0.425,5,staff_behavior,Medium
+Trash bins overflowed on the bus at Ghatkopar.,Bus,Ghatkopar,0.139,14,cleanliness,Low
+AC not working on the local train near Dadar makes the ride uncomfortable.,Local Train,Dadar,0.95,10,comfort,Medium
+Graffiti and spilled liquids on the metro platform at Dadar.,Metro,Dadar,0.417,10,cleanliness,Low
+The carriage of the bus in Churchgate has foul odor and dirty floors.,Bus,Churchgate,0.038,18,cleanliness,High
+Trash bins overflowed on the metro at Churchgate.,Metro,Churchgate,0.972,7,cleanliness,Low
+Ticket checker at Kurla behaved inappropriately.,Local Train,Kurla,0.112,3,staff_behavior,Low
+Seats on the bus at Kurla are often broken or missing.,Bus,Kurla,0.669,7,comfort,Low
+Morning rush hour saw the bus stuck for over an hour at Thane.,Bus,Thane,0.068,7,delay,Medium
+Exposed live wire spotted near the metro platform at Kurla.,Metro,Kurla,0.165,2,safety,High
+Unexpected long delay of the bus caused commuters to miss connections at Borivali.,Bus,Borivali,0.246,20,delay,High
+The carriage of the local train in Borivali has foul odor and dirty floors.,Local Train,Borivali,0.599,3,cleanliness,Low
+Smoke was seen coming from the local train at Thane.,Local Train,Thane,0.754,3,safety,High
+Seats on the metro at Borivali are often broken or missing.,Metro,Borivali,0.611,8,comfort,Low
+Staff at Ghatkopar was rude and unhelpful to commuters.,Metro,Ghatkopar,0.167,17,staff_behavior,Medium
+Customer service at the local train station in Thane ignored complaints.,Local Train,Thane,0.923,12,staff_behavior,High
+Security guard at Andheri used excessive force.,Local Train,Andheri,0.076,18,staff_behavior,High
+Overcrowding on the local train near Andheri makes commuting difficult.,Local Train,Andheri,0.916,0,comfort,Medium
+Fire alarm triggered due to sparks near the local train platform at Virar.,Local Train,Virar,0.711,19,safety,Critical
+The bus at Churchgate is frequently delayed beyond schedule.,Bus,Churchgate,0.913,8,delay,High
+Excessive heat and lack of ventilation on the metro at Andheri.,Metro,Andheri,0.628,7,comfort,Low
+Staff at Ghatkopar was rude and unhelpful to commuters.,Bus,Ghatkopar,0.381,14,staff_behavior,Medium
+AC not working on the metro near Andheri makes the ride uncomfortable.,Metro,Andheri,0.854,10,comfort,Medium
+The metro at Thane is frequently delayed beyond schedule.,Metro,Thane,0.964,5,delay,High
+Ticket checker at Dadar behaved inappropriately.,Metro,Dadar,0.805,4,staff_behavior,High
+Morning rush hour saw the local train stuck for over an hour at Virar.,Local Train,Virar,0.057,1,delay,Medium
+Trash bins overflowed on the local train at Andheri.,Local Train,Andheri,0.671,7,cleanliness,Low
+The bus at Dadar is frequently delayed beyond schedule.,Bus,Dadar,0.345,2,delay,Medium
+Unexpected long delay of the metro caused commuters to miss connections at Borivali.,Metro,Borivali,0.497,0,delay,Medium
+Graffiti and spilled liquids on the bus platform at Dadar.,Bus,Dadar,0.483,12,cleanliness,Low
+AC not working on the metro near Dadar makes the ride uncomfortable.,Metro,Dadar,0.613,13,comfort,Low
+Graffiti and spilled liquids on the local train platform at Ghatkopar.,Local Train,Ghatkopar,0.684,9,cleanliness,High
+The carriage of the bus in Dadar has foul odor and dirty floors.,Bus,Dadar,0.466,3,cleanliness,Low
+The carriage of the local train in Kurla has foul odor and dirty floors.,Local Train,Kurla,0.281,20,cleanliness,Medium
+Security guard at Thane used excessive force.,Metro,Thane,0.565,17,staff_behavior,Medium
+The metro at Virar is frequently delayed beyond schedule.,Metro,Virar,0.053,9,delay,Medium
+Dangerous crowding caused a stampede near the metro at Virar.,Metro,Virar,0.997,5,safety,Critical
+Security guard at Virar used excessive force.,Metro,Virar,0.412,14,staff_behavior,Medium
+Overcrowding on the metro near Borivali makes commuting difficult.,Metro,Borivali,0.382,0,comfort,Low
+Ticket checker at Kurla behaved inappropriately.,Metro,Kurla,0.385,8,staff_behavior,Medium
+Excessive heat and lack of ventilation on the metro at Kurla.,Metro,Kurla,0.997,1,comfort,Medium
+Excessive heat and lack of ventilation on the local train at Ghatkopar.,Local Train,Ghatkopar,0.668,9,comfort,Low
+AC not working on the bus near Dadar makes the ride uncomfortable.,Bus,Dadar,0.657,19,comfort,Low
+Ticket checker at Dadar behaved inappropriately.,Bus,Dadar,0.586,11,staff_behavior,Medium
+Overcrowding on the local train near Andheri makes commuting difficult.,Local Train,Andheri,0.803,10,comfort,Low
+Overcrowding on the bus near Churchgate makes commuting difficult.,Bus,Churchgate,0.72,15,comfort,Medium
+Security guard at Churchgate used excessive force.,Bus,Churchgate,0.599,20,staff_behavior,Medium
+A passenger fell due to a broken step at Kurla station.,Local Train,Kurla,0.453,16,safety,Low
+Staff at Borivali was rude and unhelpful to commuters.,Bus,Borivali,0.974,8,staff_behavior,High
+Ticket checker at Borivali behaved inappropriately.,Bus,Borivali,0.24,4,staff_behavior,Medium
+Smoke was seen coming from the metro at Kurla.,Metro,Kurla,0.421,3,safety,High
+The metro service at Andheri has become unreliable with constant delays.,Metro,Andheri,0.249,10,delay,Medium
+The carriage of the local train in Andheri has foul odor and dirty floors.,Local Train,Andheri,0.245,12,cleanliness,Low
+Exposed live wire spotted near the metro platform at Thane.,Metro,Thane,0.755,7,safety,High
+The bus at Andheri is frequently delayed beyond schedule.,Bus,Andheri,0.755,2,delay,Medium
+Seats on the metro at Virar are often broken or missing.,Metro,Virar,0.118,5,comfort,Low
+Electrical short caused sparks and smoke near the local train at Kurla.,Local Train,Kurla,0.304,3,safety,High
+Staff at Borivali was rude and unhelpful to commuters.,Bus,Borivali,0.869,13,staff_behavior,High
+Morning rush hour saw the bus stuck for over an hour at Borivali.,Bus,Borivali,0.245,9,delay,Medium
+Excessive heat and lack of ventilation on the metro at Dadar.,Metro,Dadar,0.896,7,comfort,Medium
+A passenger fell due to a broken step at Virar station.,Metro,Virar,0.618,1,safety,High
+Smoke was seen coming from the metro at Borivali.,Metro,Borivali,0.473,20,safety,Critical
+Staff at Churchgate was rude and unhelpful to commuters.,Local Train,Churchgate,0.521,6,staff_behavior,Medium
+The local train service at Kurla has become unreliable with constant delays.,Local Train,Kurla,0.6,20,delay,Low
+Security guard at Virar used excessive force.,Local Train,Virar,0.314,7,staff_behavior,Medium
+Fire alarm triggered due to sparks near the metro platform at Andheri.,Metro,Andheri,0.279,3,safety,High
+Smoke was seen coming from the bus at Ghatkopar.,Bus,Ghatkopar,0.525,2,safety,High
+Staff at Virar was rude and unhelpful to commuters.,Local Train,Virar,0.192,14,staff_behavior,Medium
